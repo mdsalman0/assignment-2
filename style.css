@@ -9,6 +9,9 @@ body{
 /*----------------
  influencer styles
 ------------------ */
+header {
+    margin-bottom: 50px;
+}
 .influencers-blogs {
     display: flex;
     justify-content: space-evenly;
@@ -50,6 +53,10 @@ main {
 }
 section.Popular-container {
     width: 1100px;
+}
+.coll {
+    text-align: center;
+    margin-bottom: 50px;
 }
 .Populars{
     display: grid;
