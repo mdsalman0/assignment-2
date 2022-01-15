@@ -103,7 +103,9 @@ section container style
 /* -------------------
 opsonal blogs style
 ---------------------*/
-
+section.container {
+    margin-bottom: 100px;
+}
 .influencers-containerr {
     display: flex;
 }
@@ -121,5 +123,29 @@ opsonal blogs style
 }
 
 /* -------------------
-Influencer products style
+footer style
 ---------------------- */
+footer.container {
+    background: #0a0826;
+    padding: 40px 0px;
+}
+.nfluencer {
+    width: 292px;
+    margin: auto;
+    color: white;
+}
+.tow {
+    width: 292px;
+    color: white;
+}
+.tow p {
+    width: 315px;
+    margin-top: -18px;
+    color: #aeafbf;
+    font-size: 15px;
+}
+.socialicons a {
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+}
