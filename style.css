@@ -165,10 +165,22 @@ footer.container {
     }
     .influencers-blogs, .Populars, .container{
         grid-template-columns: repeat(1, 1fr);
+        align-items: normal;
     }
     .influencers-blogs, .influencers-blogss{
         flex-direction: column;
         align-items: normal;
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .influencers-container{
+        width: 100%;
+    }
+    .influencers-blog, .Populars, .container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
     
 }
